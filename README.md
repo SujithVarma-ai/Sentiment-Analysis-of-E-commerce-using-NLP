@@ -25,7 +25,7 @@ Automatically classifies customer reviews into **Positive, Neutral, or Negative*
 
 ## Screenshot
 
-![App Screenshot](https://raw.githubusercontent.com/SujithVarma-ai/Sentiment-Analysis-of-E-commerce-using-NLP/main/Screenshot.png)
+![App Screenshot](https://raw.githubusercontent.com/SujithVarma-ai/Sentiment-Analysis-of-E-commerce-using-NLP/main/Screenshot%202026-03-25%20012021.png)
 
 ## Sample Output
 
