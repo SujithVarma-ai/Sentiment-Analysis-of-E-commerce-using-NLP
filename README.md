@@ -1,39 +1,62 @@
-# 🛍️ Sentiment Analysis of E-commerce Reviews using NLP
+# Sentiment Analysis of E-commerce Reviews using NLP
 
-## Overview
-This project focuses on analyzing customer reviews from e-commerce platforms and classifying them into **Positive**, **Neutral**, or **Negative** sentiments using Natural Language Processing (NLP) and Machine Learning techniques.
-
-The system helps businesses automatically understand customer opinions and improve product quality, services, and user experience.
+Automatically classifies customer reviews into **Positive, Neutral, or Negative** using Natural Language Processing techniques.
 
 ## Features
-- Text preprocessing using NLP techniques
-- TF-IDF feature extraction
-- Machine Learning-based sentiment classification
-- Real-time prediction using Streamlit web application
-- Probability distribution visualization
-- Interactive and user-friendly interface
+
+* Predicts sentiment from user input text
+* Classifies into **Positive / Neutral / Negative**
+* Displays **probability distribution**
+* Visualizes results using graphs
+* Clean and interactive **Streamlit UI**
 
 ## Tech Stack
-- Python
-- Natural Language Processing (NLP)
-- Scikit-learn
-- TF-IDF Vectorizer
-- Streamlit
-- Pandas, NumPy, Matplotlib
+
+* Python
+* Streamlit
+* Scikit-learn
+* Pandas
+* NumPy
+* Matplotlib
+
+## Live Demo
+
+👉 https://sentiment-analysis-of-e-commerce-using.onrender.com
+
+## Screenshot
+
+![Sentiment Analysis App](./app_preview.png)
+
+## Sample Output
+
+* Review: *“This product is amazing and works perfectly!”* → **Positive**
+* Review: *“It’s okay, not great but not bad.”* → **Neutral**
+* Review: *“Worst experience, very disappointed.”* → **Negative**
 
 ## How It Works
-1. User enters a product review
-2. Text is preprocessed (cleaning, stopwords removal)
-3. TF-IDF converts text into numerical features
-4. Machine learning model predicts sentiment
-5. Output is displayed as:
-   - Positive 😊
-   - Neutral 😐
-   - Negative 😠
-6. Probability distribution and graph are shown
 
-## Application Preview
+* Takes user input (review text)
+* Applies text preprocessing (cleaning, tokenization)
+* Converts text into vectors using **TF-IDF**
+* Uses a machine learning model to predict sentiment
+* Displays prediction along with probability distribution
 
-![Sentiment Analysis App](images/sentiment_app.png)
+## Project Structure
 
-This web application allows users to input product reviews and get real-time sentiment predictions along with probability distribution and visualization.
+* `app.py` → main Streamlit application
+* `requirements.txt` → dependencies
+* `README.md` → documentation
+
+## How to Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Future Improvements
+
+* Use advanced models like **BERT / Transformers**
+* Improve accuracy with larger datasets
+* Add real-time data scraping
+* Enhance UI/UX design
